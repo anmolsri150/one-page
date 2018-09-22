@@ -47,7 +47,32 @@ h6 {
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
+.
+.headcal{
+background: gray;
+}
 
+.team {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.team .team-item {
+  max-width: 18rem;
+}
+
+.team .team-item img {
+  max-width: 12rem;
+  -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+.headingcal{
+padding-top:50px;
+padding-bottom: 35px;
+color:black;
+font-size: 60px;
+text-align: center;
+}
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -60,8 +85,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#3b3d3d), to(#ee0979));
+  background: linear-gradient(0deg, #3b3d3d 0%, #ee0979 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -85,8 +110,8 @@ header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  #background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  #background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#3b3d3d));
+  background: linear-gradient(0deg, #ee0979 0%, #3b3d3d 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -150,8 +175,8 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color: #3b3d3d;
+  border-color: #3b3d3d;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
